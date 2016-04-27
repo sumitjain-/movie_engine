@@ -151,3 +151,49 @@
 	}
 	
 }
+
+@media screen and (max-width: 480px) {
+#dirInput {
+	width: 100%;
+	padding: 20px 0;
+
+	input[type="text"] {
+		width:100%;
+		font-size: 18px;
+		
+	}
+
+	ul {
+		width: 100%;
+		li {
+			font-size: 18px;
+		}
+	}
+}
+
+#movieList {
+	>div {
+		display: block;
+		width: 100%;
+	    margin: 0;
+	    box-shadow: none;
+	    border-bottom: solid #ccc 1px;
+	    overflow: hidden;
+		.details {
+			width: 100%;
+		    position: absolute;
+		    overflow: hidden;
+		}
+	}
+}
+
+#movieModal {
+	.description {
+		width: 100%;
+	}
+	.close {
+		bottom: 0;
+		width: 100%;
+	}
+}
+}
